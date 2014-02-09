@@ -74,7 +74,6 @@ class Game
     choice
   end
 
-
   def betting_phase
     while true
       @players.each do |player|
@@ -121,9 +120,6 @@ class Game
     end
     check
  end
-
-
-
 
   def find_winning_hand
     @winning_player = nil
